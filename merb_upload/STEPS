@@ -1,2 +1,0 @@
-merb-gen controller my_test
-Add form to apps/views/my_test/index.html.haml
