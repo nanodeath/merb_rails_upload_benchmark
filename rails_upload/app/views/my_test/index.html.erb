@@ -1,0 +1,6 @@
+<h1>MyTest#index</h1>
+<p>Find me in app/views/my_test/index.html.erb</p>
+<% form_for 'file', :url => { :action => 'upload' }, :html => { :multipart => true } do |f| %>
+  File: <%= f.file_field :file %>
+  <%= submit_tag 'Submit' %>
+<% end %>
